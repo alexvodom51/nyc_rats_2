@@ -75,7 +75,7 @@ geolocate.on('geolocate', function(event) {
 
     }
 
-    // closest_distance should now be set to the minimum value
+    // closest_distance should now be set to the minimum value test
     // closest_feature should be set to the feature itself
     console.log("Closest feature:", closest_feature.geometry.coordinates, "(", closest_distance, "m)")
 
